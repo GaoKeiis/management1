@@ -1,0 +1,40 @@
+<div class="content">
+    <!--<h4 class="sub-header">基本信息</h4>-->
+    <p>
+        <span class="sub-header">基本信息</span>
+        <span class="sp-color" data-toggle="modal" data-target="#myModal">编辑</span>
+        <span class="sp-color" data-toggle="modal" data-target="#myModal">添加</span>
+        <span class="sp-color" data-toggle="modal" data-target="#myModal">预览</span>
+    </p>
+    <div class="row">
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <td>
+                    <label>
+                        <input type="checkbox"  ng-checked="check" ng-click="che(check)">
+                    </label>
+                </td>
+                <td>居民姓名</td>
+                <td>联系电话</td>
+                <td >短信通知</td>
+                <td >报名备注</td>
+            </tr>
+
+            </thead>
+            <tr ng-repeat="i in arr">
+                <td>
+                    <label>
+                        <input type="checkbox"  ng-checked="check">
+                     </label>
+                </td>
+                <td>{{i.name}}</td>
+                <td>{{i.telephone}}</td>
+                <td>{{i.message}}</td>
+                <td>{{i.remarks}}</td>
+
+            </tr>
+        </table>
+    </div>
+    </div>
+<div ui-view></div>

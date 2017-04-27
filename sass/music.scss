@@ -1,0 +1,249 @@
+@charset "UTF-8";
+@import url(../sass/common.css);
+@import url(../fonts/iconfont.css);
+@import url(../sass/reset.css);
+@import url(../sass/swiper.css);
+@import url(../sass/bootstrap.css);
+@import url(../sass/bootstrap-theme.css);
+/*
+ * Global add-ons
+ */
+.sub-header {
+  font-size: 16px;
+  padding-bottom: 20px; }
+
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none; }
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    min-width: 235px;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    background: #29282e;
+    border-right: 1px solid #eee; } }
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px;
+  /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px; }
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  background: #01b0b9;
+  color: #fff; }
+
+/*
+ * Main content
+ */
+.right-area {
+  background: #eeeeee;
+  padding-bottom: 50px; }
+
+.content {
+  padding: 20px;
+  margin-top: 20px;
+  background: #ffffff; }
+
+.main .page-header {
+  margin-top: 0; }
+
+.main .main-sup-info {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 10px;
+  color: #999; }
+
+.main .main-button .btn {
+  margin: 0 15px; }
+
+/*
+ * Placeholder dashboard ideas
+ */
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center; }
+
+.placeholders h4 {
+  margin-bottom: 0; }
+
+.placeholder {
+  margin-bottom: 20px; }
+
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%; }
+
+/*锟斤拷锟斤拷锟斤拷锟斤拷平台锟皆讹拷锟斤拷锟斤拷式锟斤拷*/
+/*common style*/
+.right {
+  float: right; }
+
+/*sidebar*/
+.admin-info {
+  color: #ffffff;
+  text-align: center; }
+
+.admin-info .admin-title {
+  font-family: JLinXin;
+  font-size: 24px; }
+
+.admin-info .admin-sub-title {
+  font-family: Jxixinkai;
+  font-size: 18px; }
+
+.admin-info .admin-portrait {
+  margin: 30px 0 20px 0; }
+
+.admin-portrait img {
+  width: 50%;
+  height: 100%; }
+
+.admin-list {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center; }
+
+.admin-list .admin-list-title {
+  line-height: 64px; }
+
+/*nav*/
+.nav-header {
+  background: #ffffff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  height: 44px; }
+
+.navbar-nav > li > a {
+  font-size: 18px;
+  color: #999;
+  line-height: 24px; }
+
+.nav-header .on a, .nav-header .on a:hover, .nav-header .on a:focus {
+  background: #01b0b9;
+  color: #fff; }
+
+.nav-admin > li > a {
+  padding: 10px 0; }
+
+.nav-admin > li > a .icon {
+  margin: 0 20px 0 0;
+  font-size: larger; }
+
+.nav-admin .admin-name {
+  font-size: 12px; }
+
+.form-ipt{
+  background: #fff;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ccc;
+  input{
+    width: 0;
+  }
+}
+.form-img{
+  position: absolute;
+  left: 45%;
+  top:29%;
+}
+.sp-color{
+  color:#01b0b9;
+}
+.uls{
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  li{
+    height: 100%;
+    padding: 0 10px;
+    border-right:1px solid #ccc;
+  }
+}
+.sp-cc{
+  color: #ccc;
+}
+.on{
+  background: #fff;
+  font-weight: bold;
+}
+.con{
+  background:#ffffff;
+  border:1px solid #cccccc;
+  width:100%;
+  height:586px;
+  display: flex;
+  h4{
+      padding: 20px;
+  }
+  p{
+    padding-top: 30px;
+    color: #ccc;
+  }
+}
+.form-ict{
+
+  background: #fff;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #ccc;
+  input{
+    width: 0;
+  }
+}
+.sele{
+  select{
+    width: 100%;
+    padding: 5px 0;
+    color: #ccc;
+  }
+}
+.from-img{
+  position: absolute;
+  top:-1%;
+  width: 100%;
+  height: 100%;
+
+}
+.menban{
+  position: absolute;
+  top:-1%;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.54);
+  span{
+    position: absolute;
+    top:45%;
+    left: 45%;
+      color: #fff;
+    z-index: 150;
+  }
+}
+.modal-body{
+  input{
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
